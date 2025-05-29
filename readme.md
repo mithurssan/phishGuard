@@ -47,15 +47,11 @@ Label: ham = not spam and spam
 
 ## 🔧 How to Run Locally
 
-git clone https://github.com/mithurssan/phishGuard.git
-
-cd phishGuard
-
-python -m venv venv
-
-source venv/scripts/activate - on bash
-
-pip install -r requirements.txt
+1. git clone https://github.com/mithurssan/phishGuard.git
+2. cd phishGuard
+3. python -m venv venv
+4. source venv/scripts/activate - on bash
+5. pip install -r requirements.txt
 
 ### Train model (if you want to train yourself)
 python backend/train.py
