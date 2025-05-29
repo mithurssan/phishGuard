@@ -52,6 +52,7 @@ git clone https://github.com/mithurssan/phishGuard.git
 cd phishGuard
 
 python -m venv venv
+
 source venv/scripts/activate - on bash
 
 pip install -r requirements.txt
